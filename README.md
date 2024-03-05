@@ -1,1 +1,7 @@
 # National-Parks-Battlefield-Road-Trip
+
+#### Lab3
+
+---
+
+This is a route map depicting a road trip going to multiple historic battlefields on the East Coast of the United States. The data points and route were originally collected using google maps processing and then were converted into a GPX file, using [Maps to GPX](https://mapstogpx.com/). GPX data was then converted into a geoJSON file using [geojason.io](https://geojson.io/#map=2/0/20). The features of the geoJSON were added to the map as two seperate features. A "Linestring" feature depicting the route and multiple "Point" features to depict each location. The general layout of the map inclucdes a title as well as a brief description of the use of the map. There is also a link to the [National Park Service](https://www.nps.gov/index.htm), where the information for each location was collected, as well as more informative pages about each park.The map then uses coding libraries, such as leaflet, jquery, and cloudflare styling sheet in order to create the website proper. Functions of the website include a popup tooltip that runs whenever the user hovers over a point. An attempt to display images through this tooltip was attempted, but currently it has not run successfully. Originally, the creator attmepted to display images using direct links, but whenever this would be done the nature of the link would turn all text afterwards into a comment because of the language being in JavaScript. The author's name is written in the lower corner of the map under the link fo the National Park Service
